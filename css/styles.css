@@ -25,11 +25,16 @@ h1,h2 {
 }
 h1{
 font-size: 61px;
+margin: 0;
 }
 h2{font-size: 31px;
+    margin: 0 !important;
+    font-family: var(--primary-font);
 }
 h3 {
   color: var(--light-branding-color);
+  margin: 0 !important;
+  font-size: 21px;
 }
 p {
   color: var(--light-branding-color);
@@ -37,6 +42,7 @@ p {
 .program-icons {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 .icons {
   margin: 7px;

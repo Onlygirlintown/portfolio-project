@@ -1,4 +1,48 @@
+
+:root {
+  --background-color: #f9f8eb;
+  --third-color: #ffe1b6;
+  --light-branding-color: #7a9eb1;
+  --branding-color: #415865;
+  --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px;
+  --primary-font: font-family: 'Playfair Display', serif;
+  --secondary-font:font-family: 'Poppins', sans-serif;
+}
+
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
+}
+body {
+  background: var(--background-color);
+}
+.header {
+  background-color: var(--third-color);
+}
+h1,h2 {
+  color: var(--branding-color);
+}
+h1{
+font-size: 61px;
+}
+h2{font-size: 31px;
+}
+h3 {
+  color: var(--light-branding-color);
+}
+p {
+  color: var(--light-branding-color);
+}
+.program-icons {
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  margin: 7px;
+  color: var(--branding-color);
+  opacity: 0.67;
+}
+.selfie-image {
+  width: auto;
 }

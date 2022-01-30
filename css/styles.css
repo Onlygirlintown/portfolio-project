@@ -39,6 +39,7 @@ h3 {
 }
 p {
   color: var(--light-branding-color);
+  line-height: 1.7;
 }
 .program-icons {
   display: flex;
@@ -54,7 +55,27 @@ p {
   max-width: 80%;
   margin: 20px 0;
 }
-@media (max-width:400px){
+.weather-app-image{
+  height: 350px;
+}
+.project-content h2{
+    line-height: 2;
+    text-shadow: 1px 1px 2px var(--light-branding-color);
+}
+.btn-primary{
+    background-color: var(--light-branding-color);
+    border-color: var(--light-branding-color);
+    font-family: var(--primary-font);
+    box-shadow: var(--box-shadow);
+}
+.btn-container{
+    text-align: center;
+}
+.btn-primary:hover{
+    background-color: var(--branding-color);
+    border-color: var(--branding-color);
+}
+@media (max-width:990px){
     .image-container{
         display: none
     }
@@ -76,12 +97,4 @@ p {
     .btn-primary{
         font-size:8px;
     }
-}
-.btn-primary{
-    background-color: var(--light-branding-color);
-    border-color: var(--light-branding-color);
-    font-family: var(--primary-font);
-}
-.btn-container{
-    text-align: center;
 }

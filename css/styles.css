@@ -49,6 +49,13 @@ p {
   color: var(--branding-color);
   opacity: 0.67;
 }
-.selfie-image {
-  width: auto;
+.austin-selfie {
+  max-width: 80%;
+  margin: 20px 0;
+}
+@media (max-width:400px){
+    .austin-selfie{
+        max-width: 20%;
+
+    }
 }

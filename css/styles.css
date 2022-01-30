@@ -96,5 +96,13 @@ p {
     }
     .btn-primary{
         font-size:8px;
+        margin-top: 0;
     }
+    .project-text-content{
+    line-height: 0;
+    margin-bottom: 0;}
+    .project-image-content{
+    margin: 0;
+    }
+
 }

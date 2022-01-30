@@ -54,10 +54,7 @@ p {
   margin: 20px 0;
 }
 @media (max-width:400px){
-    .austin-selfie{
-        max-width: 50%;
-
-    }
+    
     h1{
         font-size: 30px;
     }

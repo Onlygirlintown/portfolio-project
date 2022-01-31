@@ -75,6 +75,15 @@ p {
     background-color: var(--branding-color);
     border-color: var(--branding-color);
 }
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.footer-btn{
+    margin: 0 80px;
+}
 @media (max-width:990px){
     .image-container{
         display: none
@@ -106,3 +115,24 @@ p {
     }
 
 }
+ .about-header h1{
+     font-size: 80px;
+
+ }
+ .about-h2{
+     color: var(--light-branding-color);
+     font-family: var(--primary-font);
+     font-weight: 650;
+     font-size: 21px;
+ }
+ .about-content{
+     margin: 30px;
+ }
+ .about-text{
+     background-color: var(--third-color);
+     padding: 20px;
+     box-shadow: var(--box-shadow);
+ }
+ .about-image{
+     max-width: 70%;
+ }

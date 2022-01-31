@@ -4,7 +4,7 @@
   --third-color: #ffe1b6;
   --light-branding-color: #7a9eb1;
   --branding-color: #415865;
-  --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px;
+  --box-shadow: rgba(37, 39, 89, 0.08) 8px 8px 8px;
   --primary-font: font-family: 'Playfair Display', serif;
   --secondary-font:font-family: 'Poppins', sans-serif;
 }
@@ -113,6 +113,9 @@ p {
     .project-image-content{
     margin: 0;
     }
+    .home-footer-btn{
+        margin: 6px;
+    }
 
 }
  .about-header h1{
@@ -126,13 +129,29 @@ p {
      font-size: 21px;
  }
  .about-content{
-     margin: 30px;
+     margin: 0px 0px 0px 70px;
  }
  .about-text{
      background-color: var(--third-color);
-     padding: 20px;
+     padding: 10px;
      box-shadow: var(--box-shadow);
  }
  .about-image{
      max-width: 70%;
+     margin: 0px 0px 0px 10px;
  }
+.inner-about-container{
+    padding: 1px;
+}
+.about-footer-links{
+     display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+@media(max-width:900px){
+    .about-image-container{
+      display:none
+    }
+
+}

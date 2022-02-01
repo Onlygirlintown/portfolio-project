@@ -44,6 +44,13 @@ nav {
     color: var(--branding-color);
     box-shadow: var(--box-shadow);
 }
+h3 a{
+    text-decoration: none;
+    color: var(--branding-color);
+}
+h3 a:hover{
+    color: var(--light-branding-color);
+}
 .nav-link:hover{
 font-size: 17px;
 color: var(--third-color) !important;
@@ -146,10 +153,17 @@ margin:40px 100px 0;
     margin-left: 30px;
 }
 .projects-h2{
-    font-size: 50px;
+    font-size: 35px;
     line-height: 2;
     font-weight: bold;
-    color: var(--light-branding-color);
+    color: var(--branding-color);
+    text-shadow: var(--box-shadow);
+}
+.project-wrapper{
+    background-color: var(--third-color);
+    margin: 25px 25px 25px 0;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
 }
 .contact-link{
     color: var(--light-branding-color);
@@ -170,6 +184,7 @@ margin:40px 100px 0;
 }
 .contact-links-list a:hover{
     color: var(--branding-color);
+    font-size: 25px;
 }
 .contacts-page h1{
     font-size: 80px;

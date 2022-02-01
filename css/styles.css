@@ -94,6 +94,11 @@ color: var(--third-color) !important;
     background-color: var(--branding-color);
     border-color: var(--branding-color);
 }
+.project-trans-content img{
+    max-height: 80%;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+}
 .footer-links{
     display: flex;
     justify-content: center;

@@ -17,10 +17,6 @@ h3 {
 body {
   background: var(--background-color);
 }
-.header {
-  background-color: var(--third-color);
-  box-shadow: var(--box-shadow);
-}
 h1,h2 {
   color: var(--branding-color);
 }
@@ -40,6 +36,22 @@ h3 {
 p {
   color: var(--light-branding-color);
   line-height: 1.7;
+}
+nav {
+    background-color: var(--light-branding-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: var(--branding-color);
+    box-shadow: var(--box-shadow);
+}
+.nav-link:hover{
+font-size: 17px;
+color: var(--third-color) !important;
+}
+.header {
+  background-color: var(--third-color);
+  box-shadow: var(--box-shadow);
+  margin-top: 80px;
 }
 .program-icons {
   display: flex;
@@ -84,6 +96,9 @@ p {
 .home-footer-btn{
     margin: 0 80px;
 }
+.about-header{
+    margin-top: 90px !important;
+}
  .about-header h1{
      font-size: 80px;
 
@@ -117,7 +132,7 @@ p {
     margin-bottom: 100px;
 }
 .ab-footer-btn{
-margin:0px 15px;
+margin:40px 100px 0;
 }
 .trans-site-snap{
     width: 75%;

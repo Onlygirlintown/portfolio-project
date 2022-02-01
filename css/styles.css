@@ -119,6 +119,23 @@ p {
 .ab-footer-btn{
 margin:0px 15px;
 }
+.trans-site-snap{
+    width: 75%;
+    margin-top: 40px;
+    max-height: 63%;
+    box-shadow: var(--box-shadow);
+    border-radius: 30px !important;
+}
+.project-container{
+    text-align: center;
+    margin-left: 30px;
+}
+.projects-h2{
+    font-size: 50px;
+    line-height: 2;
+    font-weight: bold;
+    color: var(--light-branding-color);
+}
 
 @media (max-width:990px){
     .image-container{
@@ -161,7 +178,7 @@ margin:0px 15px;
         font-size: 11px !important;
         margin-top: 0;
     }
-    .about-footer-links{
+    .footer-links{
      display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -180,5 +197,17 @@ margin:0px 15px;
     .inner-about-container{
     padding: 10px;
     margin-top: 0;
+}
+.projects-h2{
+    font-size: 23px;
+    line-height: 1;
+    margin-top: 0;
+    font-weight:medium ;
+}
+.project-container{
+    display: inline;
+}
+.projects-h2{
+    margin-bottom: 0px !important;
 }
 }

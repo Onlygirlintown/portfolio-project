@@ -235,6 +235,10 @@ margin:40px 100px 0;
     .home-footer-btn{
         margin: 6px;
     }
+    .about-wrapper{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
     .about-header h1{
         font-size: 34px !important;
         
@@ -251,17 +255,18 @@ margin:40px 100px 0;
 }
     .ab-footer-btn{
         padding: 6px;
+        margin: 0 15px;
     }
     .about-content{
-     margin: 0px 2px !important;
-     padding: 0px;
+     margin: 0px 0px !important;
+     padding: 0px !important;
     }
     .about-text{
-        padding: 9px !important;
+        padding: 0px !important;
     }
     .inner-about-container{
-    padding: 10px;
-    margin-top: 0;
+    padding: 0px;
+    margin: 0 !important;
 }
 .projects-h2{
     font-size: 23px;

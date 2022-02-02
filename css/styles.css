@@ -243,6 +243,9 @@ margin:40px 100px 0;
         font-size: 34px !important;
         
     }
+    .about-div{
+        margin-left:0 !important;
+    }
     .about-h2{
         font-size: 11px !important;
         margin-top: 0;
@@ -277,6 +280,10 @@ margin:40px 100px 0;
 .project-container{
     display: inline;
 }
+.projects-div{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 .projects-h2{
     margin-bottom: 0px !important;
 }
@@ -289,8 +296,9 @@ margin:40px 100px 0;
     margin-top: 25px !important;
 
 }
-.projects-wrapper{
- margin-top: 20px!important;   
+.project-wrapper{
+ margin-top: 20px!important;  
+ margin-left:0 !important;
 }
 .projects-links{
     margin-top: 0 !important;
